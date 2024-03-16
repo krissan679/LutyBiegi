@@ -1,0 +1,486 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	// display: flex;
+	// flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #333;
+	// overflow: hidden;
+}
+.one-two-three {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.four-five-six {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.seven-eight-eight {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.nine-ten-ten {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.ten-eleven-eleven {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.eleven-twelwe-thirteen {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.thirteen-thirteen-trophy {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.trophy-eleven-trophy {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.card {
+	position: relative;
+	margin: 20px 80px;
+	/* padding-bottom: 100; */
+	width: 450px;
+	height: 700px;
+	perspective: 800px;
+	// &--active {
+	// 	transform: rotatey(-180deg);
+	// 	opacity: 0;
+	// }
+}
+
+.card.card--active {
+    transform: rotateY(-180deg);
+}
+
+
+.img {
+	width: 100%;
+	height: 100%;
+	background-position: 0 -20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+}
+.one {
+	background-image: url('../img/Mad_Runners_second_place.jpg');
+}
+.two {
+	background-image: url('../img/MadRunnersfirstplace.jpg');
+}
+.three {
+	background-image: url('../img/Mad_Runners_third_place.jpg');
+}
+.four {
+	background-image: url('../img/four.jpg');
+}
+.five {
+	background-image: url('../img/five.jpg');
+}
+.six {
+	background-image: url('../img/six.jpg');
+}
+.seven {
+	background-image: url('../img/seven.jpg');
+}
+.eight {
+	background-image: url('../img/eight.jpg');
+}
+.nine {
+	background-image: url('../img/nine.jpg');
+}
+.ten {
+	background-image: url('../img/ten.jpg');
+}
+.eleven {
+	background-image: url('../img/eleven.jpg');
+}
+
+.twelwe {
+	background-image: url('../img/twelw.jpg');
+}
+.thirteen {
+	background-image: url('../img/thirteen.jpg');
+}
+.trophy {
+	background-image: url('../img/trophy.jpg');
+}
+.numbers {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 15%;
+	top: 57%;
+	width: 300px;
+	height: 250px;
+	background-color: #ffffff;
+	p {
+		color: black;
+		font-size: 10rem;
+		font-weight: normal;
+	}
+}
+
+.text {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 30px;
+	border-radius: 15px;
+	text-align: center;
+	opacity: 0;
+	transition: 0.8s;
+}
+
+.text-one-image {
+	width: 100%;
+	height: 100%;
+	// left: 500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Grzegorz\ Szczepański.jpg');
+}
+.text-two-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Tomek_Wiśniewski.jpg');
+}
+.text-three-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Wojtek\ Wojtkowski.jpg');
+}
+
+.text-four-image {
+	width: 100%;
+	height: 100%;
+	background-position: 80%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Damian\ Cabaj.jpg');
+}
+.text-five-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Marta\ Łyko.jpg');
+}
+.text-six-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Paweł\ Pachelski.jpg');
+}
+.text-seven-image {
+	width: 100%;
+	height: 100%;
+	// left: 500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Marcin\ drzewicki.jpg');
+}
+
+.text-eight-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Andrzej\ Cendrowski.jpg');
+}
+.text-eight-two-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Luk.jpg');
+	// color: black;
+}
+.text-nine-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Agnieszka\ Malinowska.jpg');
+}
+.text-ten-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Mariusz\ Łyko.jpg');
+}
+.text-ten-two-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Tariku_Bekele.jpg');
+}
+.text-eleven-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Bartek\ Szpargała.jpg');
+}
+.text-twelwe-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Tariku_Bekele.jpg');
+}
+.text-thirteen-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Bartek\ DYKO.jpg');
+}
+.text-thirteen-two-image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Dominik\ dargacz.jpg');
+}
+.text-thirteen-three-image {
+	width: 100%;
+	height: 100%;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Daniel\ traczyński.jpg');
+}
+.text-thirteen-four-image {
+	width: 100%;
+	height: 100%;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Daniel\ traczyński.jpg');
+}
+.text-thirteen-five-image {
+	width: 100%;
+	height: 100%;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/jacek_strzecha.jpg');
+}
+.text-thirteen-six-image {
+	width: 100%;
+	height: 100%;
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	transition: 0.8s;
+	background-image: url('../img/comeptitors/Adam\ sikora.jpg');
+}
+
+/* linear-gradient(315deg, #fee2f8, #dcf8ef 74%) */
+
+h1 {
+	font-size: 2.3rem;
+	color: aliceblue;
+	margin-top: 450px;
+	margin-bottom: 20px;
+}
+p {
+	color: aliceblue;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.text-one {
+	transform: rotateX(-180deg);
+}
+.text-two {
+	transform: rotateY(-180deg);
+}
+.text-three {
+	transform: rotateY(-180deg);
+}
+
+.card:hover .text {
+	transform: rotatex(0);
+	opacity: 1;
+}
+
+.card:hover .one {
+	transform: rotateX(180deg);
+	opacity: 0;
+}
+.card:hover .two {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .three {
+	transform: rotateX(180deg);
+	opacity: 0;
+	animation: up 0.8s;
+}
+.card:hover .text-three {
+	animation: down 0.8s;
+}
+
+.card:hover .four {
+	transform: rotateX(180deg);
+	opacity: 0;
+}
+.card:hover .five {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .six {
+	transform: rotateX(180deg);
+	opacity: 0;
+}
+.card:hover .seven {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .eight {
+	transform: rotateX(180deg);
+	opacity: 0;
+}
+.card:hover .nine {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .ten {
+	transform: rotateX(180deg);
+	opacity: 0;
+}
+.card:hover .eleven {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .twelwe {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .thirteen {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+.card:hover .trophy {
+	transform: rotatey(-180deg);
+	opacity: 0;
+}
+
+@keyframes up {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	50% {
+		transform: translateY(-60%);
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translateY(0);
+		z-index: -1;
+	}
+	50% {
+		transform: translateY(60%);
+		z-index: -1;
+	}
+
+	100% {
+		z-index: 1;
+	}
+}
